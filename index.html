@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omniverity | Next-Gen Enterprise Convergence</title>
+    <link rel="stylesheet" href="styles-omni.css">
+    <!-- FontAwesome for clean modern tech iconography -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Unified Header Navigation -->
+    <header class="navbar">
+        <div class="logo">Omniverity<span class="dot">.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#convergence">The Portal</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#industries">Industries</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn btn-nav">Connect Globally</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-content">
+            <div class="badge"><i class="fas fa-sparkles"></i> Omniverity Renaissance</div>
+            <h1>One Portal. <br><span class="gradient-text">Infinite Capabilities.</span></h1>
+            <p>Mobilizing, modernizing, and securing global enterprise infrastructure through a sleek, unified service delivery ecosystem.</p>
+            <div class="hero-actions">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#convergence" class="btn btn-secondary">Learn About Omniverity</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision/Convergence Highlight -->
+    <section id="convergence" class="convergence-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Convergence Strategy</h2>
+                <p>We are packing our robust capabilities into one lean, service-delivering powerhouse.</p>
+            </div>
+            <div class="convergence-grid">
+                <div class="conv-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Unified Interface</h3>
+                    <p>No more mazes. Access development, infrastructure, and multimedia through a single window.</p>
+                </div>
+                <div class="conv-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Agile Modernization</h3>
+                    <p>Transforming complex enterprise hurdles into seamless, lightning-fast automated systems.</p>
+                </div>
+                <div class="conv-card">
+                    <i class="fas fa-shield-halved"></i>
+                    <h3>Secure Infrastructure</h3>
+                    <p>Enterprise-grade security woven tightly into every software component and cloud layer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Services Explorer -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Capabilities Ecosystem</h2>
+                <p>Select a business domain to explore our enterprise service capabilities.</p>
+            </div>
+
+            <!-- Tab Triggers -->
+            <div class="tab-container">
+                <button class="tab-btn active" onclick="switchTab(event, 'dev')">Engineering</button>
+                <button class="tab-btn" onclick="switchTab(event, 'digital')">Transformation</button>
+                <button class="tab-btn" onclick="switchTab(event, 'infra')">Infrastructure</button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div id="dev" class="tab-content active">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Software Development</h4>
+                        <p>Custom engineering, robust web applications, native mobile experiences, and scalable microservices architectures.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Software Testing</h4>
+                        <p>Automation frameworks, functional deep-dives, UI/UX performance mapping, and specialized high-volume load testing.</p>
+                    </div>
+
+                    <div class="service-card">
+                        <h4>Consulting</h4>
+                        <p>Automation frameworks, functional deep-dives, UI/UX performance mapping, and specialized high-volume load testing.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="digital" class="tab-content">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Digital Transformation</h4>
+                        <p>Industrial IoT implementations, advanced predictive data analytics, and custom robotic process automation (RPA).</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Web Technologies</h4>
+                        <p>End-to-end compliance training systems, complex CGI character modeling, rigging, and storyboarding workflows.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Transcription Services</h4>
+                        <p>Enterprise-scale desktop virtualization, remote infrastructure monitoring, and structural high-availability DC strategy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="infra" class="tab-content">
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h4>Cloud Management</h4>
+                        <p>Comprehensive Hybrid Cloud architecture across foundational IaaS and scalable PaaS solutions.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Datacenter Management</h4>
+                        <p>Enterprise-scale desktop virtualization, remote infrastructure monitoring, and structural high-availability DC strategy.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Infrastructure</h4>
+                        <p>Enterprise-scale desktop virtualization, remote infrastructure monitoring, and structural high-availability DC strategy.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Omniverity<span class="dot">.</span></h3>
+                <p>Empowering Customers. Delivering Excellence.</p>
+            </div>
+            <div class="footer-offices">
+                <div>
+                    <h5>New York</h5>
+                    <p>104 Varick St, NY 10013</p>
+                </div>
+                <div>
+                    <h5>Sydney</h5>
+                    <p>234 George Street, NSW 2000</p>
+                </div>
+                <div>
+                    <h5>Hyderabad</h5>
+                    <p>123 Jubilee Hills, Hyd 0036</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Omniverity Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Tabs Logic -->
+    <script>
+        function switchTab(evt, tabId) {
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.classList.remove('active'));
+
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+
+            document.getElementById(tabId).classList.add('active');
+            evt.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
